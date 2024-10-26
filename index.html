@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <!-- manrope font -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/8aaa9fc818.js" crossorigin="anonymous"></script>
+    <!-- tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'h2-color': '#1C1C1C',
+                'p-color': '#777',
+                'footer-p-color': '#494949',
+                'gradient-2': '#F00',
+                'gradient-1': '#FF8938',
+              }
+            }
+          }
+        }
+      </script>
+    <style>
+    .manrope-font{
+        font-family: "Manrope", sans-serif;
+    }
+    </style>
+</head>
+<body>
+  <!-- banner style -->
+    <header class="max-w-screen-lg mx-auto px-4 mt-4 mb-14 lg:mt-7 lg:flex lg:justify-between justify-items-center ">
+      <!-- banner-text -->
+       <div class="">
+        <h2 class="text-6xl font-semibold mb-6 h2-color">
+          It's good <br> 
+          tea time at The <br>
+          Tea House
+        </h2>
+          <p class="mb-6 p-color">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+          <!-- button-container -->
+           <div class="max-w-40 bg-gradient-to-r from-gradient-1 to-gradient-2 flex justify-center items-center gap-2 px-4 py-3 rounded-lg text-white">
+            <h4>Explore More</h4>
+            <div class="class="max-w-3.5 "">
+              <img  src="./images/arrow.png" alt="">
+            </div>
+           </div>
+        </div>
+       <!-- banner img -->
+       <div class="relative">
+        <img src="./images/banner.png" alt="">
+     
+       <!-- rate section -->
+       <div class="absolute flex items-center gap-2 shadow-2xl px-4 py-2 rounded-lg bg-white bottom-4 left-24">
+       <div class="flex bg-[#fff] shadow-2xl">
+        <i class="fa-solid fa-star text-[#FFC850] "></i>
+       </div >
+        <div >
+          <h2>5.00</h2>
+          <p>Trust Pilot Ratings</p>
+        </div>
+       </div>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+</html>
